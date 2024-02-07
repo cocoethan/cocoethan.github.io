@@ -94,6 +94,8 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 70px;
+
+    width: 100%;
 }
 
 #about-headline {
@@ -143,6 +145,8 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 70px;
+
+    width: 100%;
 }
 
 #projects-headline {
@@ -221,6 +225,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+
+    width: 100%;
 }
 
 .email-container {
