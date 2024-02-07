@@ -1,0 +1,235 @@
+html {
+    font-family: 'Inter';
+}
+
+body {
+    background: #F5F5DC;
+    color: #4B2D0B;
+    font-family: 'Inter';
+}
+
+.navbar-light {
+    background: #F5F5DC;
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navbar-brand {
+    position: relative;
+    color: #4B2D0B;
+    font-family: 'Rubik Bubbles';
+}
+
+.nav-link {
+    position: relative;
+    color: #4B2D0B;
+}
+
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: #4B2D0B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+#home {
+    display: flex;
+
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.home-column {
+    flex: 50%;
+}
+
+#home-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-bio {
+    padding-bottom: 15px;
+}
+
+#learn-more-btn {
+    background-color: #4B2D0B; 
+    color: #F5F5DC; 
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+#about-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-badges {
+    display: flex;
+}
+
+#about-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-column {
+    flex: 50%;
+}
+
+#about-column-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+#projects-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.card {
+    color:#4B2D0B;
+    background-color: #F5F5DC;
+    border: 1px solid #4B2D0B;
+}
+
+.card-footer {
+    color:#F5F5DC;
+    background-color: #4B2D0B;
+    display: flex;
+    justify-content: right;
+}
+
+.github-button {
+    color: #6D4210; 
+    background-color: #F5F5DC;
+    padding: 7px;
+    border-radius: 40px;
+    border: none;
+}
+
+#footer {
+    color: #F5F5DC;
+    background-color: #4B2D0B;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+#envelope-link {
+    color: #F5F5DC;
+}
+
+#envelope-title-link {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+#linkedin-title-link {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+#github-title-link {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+#linkedin-link {
+    color: #F5F5DC;
+}
+
+#github-link {
+    color: #F5F5DC;
+}
+
+.contact-headline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.linkedin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.github-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
